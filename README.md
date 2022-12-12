@@ -73,5 +73,5 @@ After serving './dist' folder in browser...
 - unregister service worker
 - Service worker section, you can go "offline"
 ### Service worker:
-The service worker will only register if its served on local host or https (not http)
+The service worker will only register if its served on localhost or https (not http)
 ____
