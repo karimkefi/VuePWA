@@ -1,11 +1,12 @@
 # hello-world-pwa
 ____
-## How did we get the Project to this point?
+## If you want to set up the project from scratch...
 See [Tutorial](https://www.youtube.com/watch?v=15Yr-J4X34M)
 
 ```
 vue create hello-world-pwa
 ```
+
 Options
 - Select "Manually select features"
 - Select PWA (spacebar to select options) then enter
@@ -13,12 +14,12 @@ Options
 
 ____
 
-## Project setup
+## 1st time project setup
 ```
 yarn install
 ```
 ____
-## Build
+## For Development
 ### Development for hot-reloads
 ```
 yarn serve
@@ -27,20 +28,20 @@ yarn serve
 ```
 yarn serve-prod
 ```
-### Production
+## For Production
 
-#### pre-requisite install "serve" package
+### pre-requisite install "serve" package
 ```
 npm install -g serve
 ```
-#### Run prod
+### Run prod
 ```
 yarn build
 serve dist/
 ```
 
 ____
-### Lints and fixes files
+### Linting
 ```
 yarn lint
 ```
@@ -66,12 +67,13 @@ After serving './dist' folder in browser...
 ## Useful Browser tools (inspector)
 ### Network:
 - refresh page for the PWA
-- see what is being loaded
+- see what is being loaded and from where
 - if cached asset being used, column "size" will show "ServiceWorker"
 ### Application:
 - see service worker and what has been used for Application build
 - unregister service worker
 - Service worker section, you can go "offline"
+- Cache: > Cache storage: should the files which have been cached by Service worker.
 ### Service worker:
-The service worker will only register if its served on localhost or https (not http)
+- The service worker will only register if its served on localhost or https (not http)
 ____

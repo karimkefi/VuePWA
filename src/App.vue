@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Bears Hackday PWA"/>
+    <HelloWorld msg="Bears Hackday PWA.."/>
   </div>
 </template>
 
